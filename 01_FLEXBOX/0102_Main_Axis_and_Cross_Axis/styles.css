@@ -1,0 +1,21 @@
+/* flex-direction: row(default) => main axis == horizontal axis  */
+/* flex-direction: row(default) => cross axis == vertical axis  */
+/* justify-content => main axis에서 content들의 위치를 조정함 */
+/* align-items => cross axis에서 content들의 위치를 조정함 */
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  justify-content: space-around;
+  align-items: center;
+  /* align-items: stretch; */
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: peru;
+  color: white;
+}

@@ -1,0 +1,21 @@
+.box {
+  background: blue;
+  width: 300px;
+  height: 300px;
+  /* margin-bottom: 2px; */
+  display: inline-block;
+  /* 블럭을 인라인 같이 쓰는 거임 */
+  /* display: inline; */
+  /* inline은 너비와 높이를 함께 쓸 수 없음 */
+  color: white;
+}
+
+.box:nth-child(2) {
+  margin-left: 35px;
+}
+
+.box:nth-child(3) {
+  margin-left: 20px;
+}
+
+/* 이런 식으로 간격을 맞추면 반응형 웹에서 레이아웃이 깨진다 */
